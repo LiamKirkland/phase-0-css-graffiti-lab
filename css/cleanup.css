@@ -1,1 +1,24 @@
 /* write your override styles here */
+#wall .tag-1 {
+    display: none;
+}
+
+div#wall div#tag-2 {
+    display: none;
+}
+
+div#wall #tag-3.slick.wicked {
+    z-index: 1; /* can't be hiding the GOAT, Noodle*/
+}
+.parent div#tag-4 {
+    z-index: 10;
+}
+
+body div#wall div.parent div:last-child div#tag-6 {
+    z-index: 2;
+}
+
+body div#wall div.parent div > div#tag-7.slick {
+    left: 670px;
+    z-index: 11;
+}
